@@ -12,7 +12,7 @@ function Home() {
   }
   return (
     <div className="flex flex-col h-screen items-center justify-center overflow-auto">
-      <img src="Om.jpg" alt="Om" className="mb-5 w-[80%]" />
+      <img src="Om.jpeg" alt="Om" className="mb-5 sm:w-[35%] max-sm:w-[55%]" />
       <div className="flex justify-center gap-5 items-center mb-11">
         <button
           onClick={setRudrakshaBead}
